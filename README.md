@@ -10,5 +10,11 @@ to finish the initial compilation, even though the process continues.
 ## Example
 
 ```sh
-webpack --mode development | ./stdin-matcher-go Compilation successful
+webpack --mode development | ./stdin-matcher-rust Compilation successful
+```
+
+## Building
+
+```sh
+cargo build --release
 ```
